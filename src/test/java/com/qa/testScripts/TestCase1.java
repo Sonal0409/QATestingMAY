@@ -29,7 +29,8 @@ public class TestCase1 {
 		// for selenium to find an element on the webpage and perform testing on it
 		
 		// findElement(locators-- address of your element on webpage)
-		// xpath locator -- //tagname[@attribute='value']
+		// xpath locator -- //tagname[@attribute='value']. action();
+		
 		
 		driver.findElement(By.xpath("//input[@id='searchInput']")).clear();
 		
